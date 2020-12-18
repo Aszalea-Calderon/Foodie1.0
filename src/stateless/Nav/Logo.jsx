@@ -2,9 +2,11 @@ import React from 'react'
 
 const Logo = () => {
   return (
-    <div>
+    <>
+    <div className="logo">
       <h1>My Food Heaven</h1>
-    </div>
+      </div>
+    </>
   )
 }
 

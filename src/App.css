@@ -1,3 +1,18 @@
+* {
+  border: 1px black solid;
+}
 .App {
   text-align: center;
+}
+/* Nav */
+
+.logo {
+  width: 30%;
+}
+.nav {
+  width: 70%;
+}
+.myNav {
+  display: flex;
+  /* justify-content: space-around; */
 }
