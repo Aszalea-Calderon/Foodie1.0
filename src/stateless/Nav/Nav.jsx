@@ -7,11 +7,13 @@ const Nav = () => {
   return (
     <>
     <div className="nav">
-       <Search />
-      <Link to="/Home">Home</Link>
-      <Link to="/RecipeGenHome">Recipes</Link >
-      <p>My Recipes</p>
+      
+      <Link to="/Home"className="link">Home</Link>
+      <Link to="/RecipeGenHome" className="link">Recipes</Link >
+      <Link to="/MyRecipes" className="link">My Recipes</Link>
+      <Search />
       </div>
+      
     </>
   )
 }

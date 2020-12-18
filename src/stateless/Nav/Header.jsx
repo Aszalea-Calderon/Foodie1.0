@@ -7,11 +7,13 @@ import Logo from './Logo'
 
 const Header = () => {
   return (
-    <div>
+    <div className='center'>
       <div className="myNav">
       <Logo />
       <Nav />
+      
       </div>
+      <div className="line"></div>
     </div>
   )
 }
